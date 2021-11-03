@@ -326,3 +326,33 @@ vi hosts
 ansible-playbook -i hosts nginx-install.yml
 ll
 vi nginx-install.yml 
+git 
+git clone https://github.com/Manileo/Project2.git
+cd pro
+ll
+cd Project2/
+vi example.txt
+git add Project2
+ll
+git add .
+git commit -m "aded example.txt file"
+git push origin master
+git push origin main
+git tag v1.0
+git tag
+git show tag 
+git push origin --tags
+git push origin master
+su ec2-user
+ll
+git add .
+git commit -m "added all files"
+git status
+git push origin master 
+git remote add origin https://github.com/Manileo/Project1.git
+ll
+sudo su 
+su ec2-user
+ssh -i "Devops4.pem" ec2-user@ec2-3-144-188-156.us-east-2.compute.amazonaws.com
+su user
+su
